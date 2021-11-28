@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="overlay"></div>
+    <header class="header">
+            <div class="header__inner">
+                <a class="header__logo" href="#">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+                <nav class="header__nav">
+                    <ul class="header__navigation">
+                        <li class="nav__item"><a href="#main" class="nav__link nav__main nav__link active">Главная</a></li>
+                        <li class="nav__item"><a href="#partners" class="nav__link nav__partners">Наши партнеры</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link nav__services">Услуги</a></li>
+                        <li class="nav__item"><a href="#team" class="nav__link nav__team">Команда</a></li>
+                        <li class="nav__item"><a href="#features" class="nav__link nav__features">Преимущества</a></li>
+                    </ul>
+                </nav>
+                <button class="autorization button">Сотрудничать</button>
+            </div>
+    </header>
+    <main class="wrapper">
+        <div class="modal">
+            <form class="main__form">
+                <h2>Заполните поля, и наш менеджер свяжется с вами в ближайшее время</h2>
+                <label>
+                    <input type="text" placeholder = "Номер телефона">
+                    <input type="tel" placeholder = "ФИО">
+                </label>
+                <button type="button">Отправить</button>
+            </form>
+        </div>
+    <div class="progress__bar"></div>
+    <section class="section main" id="main">
+            <div class="main__inner">
+                <div class="main__left">
+                    <h1 class="main__title"><span>Вампирское </span>сопровождение бизнеса</h1>
+                    <h2 class="main__subtitle">Никаких юристов, <span>высасывающих у вас деньги </span></br> Только гарантированное заключение сделок и процветание вашей компании</h2>
+                    <button class="button submit">
+                        Начать сотрудничество
+                    </button>
+                </div>
+                <div class="main__right">
+                    <h3 class="main__right__title">Нужна только ваша подпись...</h3>
+                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_rgyauudg.json"  background="transparent"  speed="1"  style="width: 500px; height: 500px;"  loop  autoplay class="lottiedoc"></lottie-player>                </div>
+            </div>
+    </section>
+    <section class="section clients" id="partners">
+            <div class="clients__inner">
+                <img src="images/amazon.png" alt="amazon" class="clients__image">
+                <img src="images/ms.png" alt="microsoft" class="clients__image">
+                <img src="images/yandex.png" alt="yandex" class="clients__image">
+                <img src="images/who.png" alt="yandex" class="clients__image">
+                <img src="images/donor.png" alt="yandex" class="clients__image">
+            </div>
+    </section>
+    <section class="section services" id="services">
+            <div class="services__inner">
+                <h2 class="services__title">Наши услуги</h2>
+                <div class="services__items">
+                    <lottie-player class="blood" src="https://assets7.lottiefiles.com/packages/lf20_b6ap86fd.json"  background="transparent"  speed="1"  style="width: 1000px; height: 1000px;"  loop controls autoplay></lottie-player>
+                    <div class="services__item">
+                        <div class="services__item__inner">
+                            <figure class="services__item__front">
+                                <img src="images/back-side.png" alt="" class="services__item__image">
+                            </figure>
+                           <figure class="services__item__back">
+                            <h3 class="services__item__title">Заключение контракта</h3>
+                            <p class="services__item__text">Быстрое и безотказное составление договоров с любым контрагентом. Пункты сделки будут соответствовать только вашим интересам.</p>
+                           </figure>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__inner">
+                            <figure class="services__item__front">
+                                <img src="images/back-side.png" alt="" class="services__item__image">
+                            </figure>
+                           <figure class="services__item__back">
+                            <h3 class="services__item__title">Гипноз клиента</h3>
+                            <p class="services__item__text">Повелевайте людьми. Они сделают все, что вы захотите.</p>
+                           </figure>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__inner">
+                            <figure class="services__item__front">
+                                <img src="images/back-side.png" alt="" class="services__item__image">
+                            </figure>
+                           <figure class="services__item__back">
+                            <h3 class="services__item__title">Устранение конкурентов</h3>
+                            <p class="services__item__text">Мешает конкурент? Не проблема. Мы обескровим его бизнес.</p>
+                           </figure>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__inner">
+                            <figure class="services__item__front">
+                                <img src="images/back-side.png" alt="" class="services__item__image">
+                            </figure>
+                           <figure class="services__item__back">
+                            <h3 class="services__item__title">Соблазнение</h3>
+                            <p class="services__item__text">Ваши партнеры будут только рады с вами сотрудничать.</p>
+                           </figure>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__inner">
+                            <figure class="services__item__front">
+                                <img src="images/back-side.png" alt="" class="services__item__image">
+                            </figure>
+                           <figure class="services__item__back">
+                            <h3 class="services__item__title">Защита от налоговиков</h3>
+                            <p class="services__item__text">Никаких штрафов или внезапных проверок. Ваш бизнес будет стоять особняком от остального мира.</p>
+                           </figure>
+                        </div>
+                    </div>
+                    <div class="services__item">
+                        <div class="services__item__inner">
+                            <figure class="services__item__front">
+                                <img src="images/back-side.png" alt="" class="services__item__image">
+                            </figure>
+                           <figure class="services__item__back">
+                            <h3 class="services__item__title">Банкротство</h3>
+                            <p class="services__item__text">Забудьте про долги. У вас их больше нет.</p>
+                           </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="section team" id="team">
+        <div class="team__inner">
+            <h2 class="team__title">Наша команда</h2>
+            <h3 class="team__subtitle"><span>Проверенные специалисты,</span> знающие, что успех требует пота и <span>крови</span></h3>
+            <div class="team__tab">
+                <ul class="team__tab__inner">
+                    <li class="tab__item active" data-id = "all">Все</li>
+                    <li class="tab__item" data-id = "schemers">Интриганы</li>
+                    <li class="tab__item" data-id = "pursuers">Преследователи</li>
+                    <li class="tab__item" data-id = "hypnosis">Гипнотизеры</li>
+                </ul>
+            </div>
+            <div class="team__items">
+                <div class="team__item pursuers">
+                    <div class="image__wrapper">
+                    <img src="images/team.png" alt="" class="team__img">
+                    </div>
+                    <h4 class="team__name">John Doe</h4>
+                    <div class="team__social">
+                        <img src="images/facebook.png" alt="" class="social__icon">
+                        <img src="images/instagram.png" alt="" class="social__icon">
+                        <img src="images/twitter.png" alt="" class="social__icon">
+                    </div>
+                </div>
+                <div class="team__item schemers">
+                    <div class="image__wrapper">
+                    <img src="images/team5.png" alt="" class="team__img">
+                    </div>
+                    <h4 class="team__name">Nattasha</h4>
+                    <div class="team__social">
+                        <img src="images/facebook.png" alt="" class="social__icon">
+                        <img src="images/instagram.png" alt="" class="social__icon">
+                        <img src="images/twitter.png" alt="" class="social__icon">
+                    </div>
+                </div>
+                <div class="team__item schemers">
+                    <div class="image__wrapper">
+                    <img src="images/team2.png" alt="" class="team__img">
+                    </div>
+                    <h4 class="team__name">Haris Milas</h4>
+                    <div class="team__social">
+                        <img src="images/facebook.png" alt="" class="social__icon">
+                        <img src="images/instagram.png" alt="" class="social__icon">
+                        <img src="images/twitter.png" alt="" class="social__icon">
+                    </div>
+                </div>
+                <div class="team__item hypnosis">
+                    <div class="image__wrapper">
+                    <img src="images/team3.png" alt="" class="team__img">
+                    </div>
+                    <h4 class="team__name">Dracula</h4>
+                    <div class="team__social">
+                        <img src="images/facebook.png" alt="" class="social__icon">
+                        <img src="images/instagram.png" alt="" class="social__icon">
+                        <img src="images/twitter.png" alt="" class="social__icon">
+                    </div>
+                </div>
+                <div class="team__item pursuers">
+                    <div class="image__wrapper">
+                    <img src="images/team4.png" alt="" class="team__img">
+                    </div>
+                    <h4 class="team__name">Nosferatu</h4>
+                    <div class="team__social">
+                        <img src="images/facebook.png" alt="" class="social__icon">
+                        <img src="images/instagram.png" alt="" class="social__icon">
+                        <img src="images/twitter.png" alt="" class="social__icon">
+                    </div>
+                </div>
+            </div>
+            <div class="team__footer">
+                <p class="button__text"><span>Заинтригованы?</span> Запишитесь на консультацию к одному из наших представителей!</p>
+                <button class="button submit button-team">
+                    Записаться
+                </button> 
+            </div>
+        </div>
+    </section>
+    <section class="icecream">
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_41fkexys.json"  background="rgba(0, 0, 0, 0.96)"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>    </section>
+    <section class="section features" id="features">
+    <div class="features__inner">
+        <div class="features__wrapper">
+            <h2 class="features__title">Наши преимущества</h2>
+            <div class="features__down">
+                <div class="features__tabs">
+                    <div class="down__text">100% результат</div>
+                    <div class="down__text">Надежность</div>
+                    <div class="down__text">Лояльный ценник</div>
+                    <div class="down__text">Скорость</div>
+                    <div class="down__text">Репутация</div>
+                    <div class="down__text">Мастерство</div>
+                    <div class="down__text">Законность</div>
+                </div>
+            </div>
+        </div>  
+    </div>
+    </section>
+    <section class="icecream">
+        <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_41fkexys.json"  background="rgba(0, 0, 0, 0.96)"  speed="0.5"  style="width: 300px; height: 300px;"  loop  autoplay></lottie-player>    </section>
+    <section class="section quiz">
+        <h2 class="quiz__title">Ответьте на пару вопросов</h2>
+        <div class="quiz__inner">
+            <form class="quiz__form">
+
+            </form>
+      
+        </div>
+    </section>
+    </main>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+</html>
